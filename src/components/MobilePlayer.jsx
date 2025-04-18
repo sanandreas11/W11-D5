@@ -4,7 +4,7 @@ import "../css/MobilePlayer.css"
 
 const MobilePlayer = () => {
   return (
-    <Card className="bottom-player bg-dark text-light d-flex flex-row align-items-center p-2 shadow-lg">
+    <Card className="bottom-player d-flex d-lg-none bg-dark text-light flex-row align-items-center p-2 shadow-lg">
       <img
         src="https://placecats.com/100/100"
         alt="cover"

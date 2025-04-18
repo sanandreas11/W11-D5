@@ -1,0 +1,28 @@
+.sidebar {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  border-right: 1px solid #222;
+  z-index: 1000;
+}
+
+body {
+  padding-left: 220px; /* To avoid overlap on large screens */
+}
+
+@media (max-width: 768px) {
+  body {
+    padding-left: 0;
+  }
+}
+.main-content {
+  margin-left: 220px;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+  }
+}

@@ -16,7 +16,10 @@ const Footer = () => {
           </Nav.Link>
         </Nav.Item>
       </Nav>
-      <p className="text-light ms-3">Copyright &#169; {currentYear}</p>
+      <p className="text-light ms-3">
+        Copyright &#169; {currentYear} Andrea Inc. Il sito non è vero e perciò
+        senza diritti
+      </p>
       <ul className="d-flex flex-wrap list-unstyled">
         <li className="text-light border-end border-dark mx-1 px-2">
           Condizioni dei servizi internet

@@ -9,11 +9,15 @@ import NewReleases from "./components/NewReleases"
 import Other from "./components/other"
 import Footer from "./components/Footer"
 import MobilePlayer from "./components/MobilePlayer"
+import Sidebar from "./components/Sidebar"
+import DesktopPlayer from "./components/DesktopPlayer"
 
 function App() {
   return (
     <>
       <MyNavMobile />
+      <Sidebar />
+      <DesktopPlayer />
       <Container>
         <News />
       </Container>
